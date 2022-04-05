@@ -8,11 +8,6 @@ import android.os.Environment;
 import android.provider.MediaStore;
 import android.util.Log;
 
-import org.opencv.core.CvType;
-import org.opencv.core.Mat;
-import org.opencv.imgcodecs.Imgcodecs;
-import org.opencv.imgproc.Imgproc;
-
 import java.io.ByteArrayOutputStream;
 import java.io.File;
 import java.io.FileOutputStream;
@@ -24,8 +19,6 @@ import java.nio.FloatBuffer;
 
 public class GLMergerWithShader {
     public final static String TAG = "GLMergerWithShader";
-    Mat outputReadpixelInMat;
-    Mat mat_RGBA2YUV_I420;
     private int mScreenWidth  = 1920;
     private int mScreenHeight = 1080;
     private int mProgramId;
@@ -298,8 +291,6 @@ public Boolean initProgram(){
 //            DPRINTF("Rawdata is NULL\n");
 //        }
         /*this is to read local file end*/
-
-        mat_RGBA2YUV_I420 = new Mat() ;
         Log.d(TAG,"GLInit exit");
     }
     public void GLLoadShader(){
@@ -324,22 +315,16 @@ public Boolean initProgram(){
         int bw = 1920; //trying with hard code, later need to change
         int bh = 1080;
         Bitmap imgbitmap;
-//        ByteBuffer imgbitmapBuffer = ByteBuffer.allocateDirect(bw * bh * 4).order(ByteOrder.nativeOrder());//RGBA
-        ByteBuffer imgbitmapBuffer = ByteBuffer.allocateDirect(bw * bh * 4).order(ByteOrder.nativeOrder());//RGBA
-        byte[] originalMap = new byte[(bw * bh)];
-
+        ByteBuffer imgbitmapBuffer = ByteBuffer.allocate(bw * bh * 4);//RGBA
+//        mPosTriangleVertices = ByteBuffer.allocateDirect(gTriangleVertices.length*FLOAT_SIZE_BYTES).order(ByteOrder.nativeOrder()).asFloatBuffer();
+//        mPosTriangleVertices.put(gTriangleVertices).position(0);
         try {
             imgbitmap = BitmapFactory.decodeStream(mAssetContext.getAssets().open("four_balls_color_jpg1920x1080.jpg"));
             bw = imgbitmap.getWidth();
             bh = imgbitmap.getHeight();
-            Log.d(TAG, "Bitmap size = " + imgbitmap.getByteCount());
-            Log.i(TAG, "Buffer size = " + imgbitmapBuffer.capacity());
+//            imgbitmap.copyPixelsToBuffer(imgbitmapBuffer);
             Log.d(TAG, "bw:" + bw);
             Log.d(TAG, "bh:" + bh);
-//            imgbitmap.copyPixelsToBuffer(imgbitmapBuffer);
-//            imgbitmap.get(originalMap, 0, imgbitmap.capacity()); //not working
-//            ByteBuffer originalMapBuffer = ByteBuffer.wrap(originalMap); //not working
-
 
 
         Log.d(TAG, "GLDrawFrame after bitmap read local jpeg");
@@ -393,12 +378,6 @@ public Boolean initProgram(){
         pReadPixelBuf.order(ByteOrder.LITTLE_ENDIAN);
 
         GLES20.glReadPixels(0, 0, mScreenWidth, mScreenHeight, GLES20.GL_RGBA, GLES20.GL_UNSIGNED_BYTE, pReadPixelBuf);
-
-            outputReadpixelInMat = new Mat(mScreenHeight,mScreenWidth, CvType.CV_8UC4,pReadPixelBuf);
-        Imgproc.cvtColor(outputReadpixelInMat, mat_RGBA2YUV_I420, Imgproc.COLOR_RGBA2YUV_I420);
-
-            Imgcodecs.imwrite("/storage/emulated/0/opencvTesting/Javmat_RGBA2YUV_I420.jpg", mat_RGBA2YUV_I420);
-
         Bitmap bitmapoutputFrmReadPixel = Bitmap.createBitmap(mScreenWidth, mScreenHeight, Bitmap.Config.ARGB_8888);
         bitmapoutputFrmReadPixel.copyPixelsFromBuffer(pReadPixelBuf);
 

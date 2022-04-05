@@ -77,9 +77,6 @@ public class GL2JNIActivity extends Activity implements View.OnClickListener {
         } catch (Exception e){}
 
         mView = new GL2JNIView(this);
-
-         System.loadLibrary("opencv_java4");
-
 //	    setContentView(mView);
 	    LinearLayout.LayoutParams p = new LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT,
                 LinearLayout.LayoutParams.MATCH_PARENT);

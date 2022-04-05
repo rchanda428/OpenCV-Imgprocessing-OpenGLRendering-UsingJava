@@ -1,6 +1,0 @@
-# ninja log v5
-0	4618	0	CMakeFiles/gl2jni.dir/gl_code.cpp.o	83188cc3a23b362e
-6	5229	0	CMakeFiles/gl2jni.dir/cl_wrapper.cpp.o	41b372426da79f82
-849	5444	0	CMakeFiles/gl2jni.dir/libopencl.c.o	7c25204f1fde54db
-1597	6891	0	CMakeFiles/gl2jni.dir/util.cpp.o	2e76020dc3a3cca4
-6891	8208	0	E:/innowork/mywork/HangarProject/sourcecode/demo-jni-local-javaopenglintegration/android-shader-demo-jni/app/build/intermediates/cmake/debug/obj/arm64-v8a/libgl2jni.so	1f023f832cc5501f
