@@ -1,0 +1,20 @@
+com/android/gl2jni/ImageUtils.java
+ com.android.gl2jni.ImageUtils
+com/android/gl2jni/GL2JNIView.java
+ com.android.gl2jni.GL2JNIView
+ com.android.gl2jni.GL2JNIView$1
+ com.android.gl2jni.GL2JNIView$ConfigChooser
+ com.android.gl2jni.GL2JNIView$ContextFactory
+ com.android.gl2jni.GL2JNIView$Renderer
+com/android/gl2jni/PathUtil.java
+ com.android.gl2jni.PathUtil
+com/android/gl2jni/GLMergerWithShader.java
+ com.android.gl2jni.GLMergerWithShader
+com/android/gl2jni/BuildConfig.java
+ com.android.gl2jni.BuildConfig
+com/android/gl2jni/VideoDecodeThread.java
+ com.android.gl2jni.VideoDecodeThread
+com/android/gl2jni/GL2JNIActivity.java
+ com.android.gl2jni.GL2JNIActivity
+ com.android.gl2jni.GL2JNIActivity$1
+ com.android.gl2jni.GL2JNIActivity$1$1

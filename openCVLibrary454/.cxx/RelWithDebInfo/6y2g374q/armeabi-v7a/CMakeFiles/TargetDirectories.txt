@@ -1,0 +1,3 @@
+D:/StudioProjects/PFU-IDScanner/openCVLibrary454/.cxx/RelWithDebInfo/6y2g374q/armeabi-v7a/CMakeFiles/opencv_jni_shared.dir
+D:/StudioProjects/PFU-IDScanner/openCVLibrary454/.cxx/RelWithDebInfo/6y2g374q/armeabi-v7a/CMakeFiles/edit_cache.dir
+D:/StudioProjects/PFU-IDScanner/openCVLibrary454/.cxx/RelWithDebInfo/6y2g374q/armeabi-v7a/CMakeFiles/rebuild_cache.dir

@@ -1,16 +1,33 @@
 {
   "buildFiles": [
-    "E:\\innowork\\mywork\\HangarProject\\sourcecode\\demo-jni-local-javaopenglintegration\\android-shader-demo-jni\\openCVLibrary454\\libcxx_helper\\CMakeLists.txt"
+    "C:\\Users\\IM-LP-1457\\Downloads\\demo-jni-javaopenglintegration-wrkng\\android-shader-demo-jni\\openCVLibrary454\\libcxx_helper\\CMakeLists.txt"
   ],
-  "cleanCommands": [
-    "C:\\Users\\rchanda\\AppData\\Local\\Android\\Sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build E:\\innowork\\mywork\\HangarProject\\sourcecode\\demo-jni-local-javaopenglintegration\\android-shader-demo-jni\\openCVLibrary454\\.cxx\\cmake\\debug\\x86_64 --target clean"
+  "cleanCommandsComponents": [
+    [
+      "C:\\Users\\IM-LP-1457\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe",
+      "-C",
+      "C:\\Users\\IM-LP-1457\\Downloads\\demo-jni-javaopenglintegration-wrkng\\android-shader-demo-jni\\openCVLibrary454\\.cxx\\cmake\\debug\\x86_64",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "C:\\Users\\IM-LP-1457\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe",
+    "-C",
+    "C:\\Users\\IM-LP-1457\\Downloads\\demo-jni-javaopenglintegration-wrkng\\android-shader-demo-jni\\openCVLibrary454\\.cxx\\cmake\\debug\\x86_64",
+    "{LIST_OF_TARGETS_TO_BUILD}"
   ],
   "libraries": {
     "opencv_jni_shared-Debug-x86_64": {
       "artifactName": "opencv_jni_shared",
-      "buildCommand": "C:\\Users\\rchanda\\AppData\\Local\\Android\\Sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build E:\\innowork\\mywork\\HangarProject\\sourcecode\\demo-jni-local-javaopenglintegration\\android-shader-demo-jni\\openCVLibrary454\\.cxx\\cmake\\debug\\x86_64 --target opencv_jni_shared",
+      "buildCommandComponents": [
+        "C:\\Users\\IM-LP-1457\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe",
+        "-C",
+        "C:\\Users\\IM-LP-1457\\Downloads\\demo-jni-javaopenglintegration-wrkng\\android-shader-demo-jni\\openCVLibrary454\\.cxx\\cmake\\debug\\x86_64",
+        "opencv_jni_shared"
+      ],
       "abi": "x86_64",
-      "output": "E:\\innowork\\mywork\\HangarProject\\sourcecode\\demo-jni-local-javaopenglintegration\\android-shader-demo-jni\\openCVLibrary454\\.cxx\\cmake\\debug\\x86_64\\libopencv_jni_shared.a"
+      "output": "C:\\Users\\IM-LP-1457\\Downloads\\demo-jni-javaopenglintegration-wrkng\\android-shader-demo-jni\\openCVLibrary454\\.cxx\\cmake\\debug\\x86_64\\libopencv_jni_shared.a",
+      "runtimeFiles": []
     }
   }
 }

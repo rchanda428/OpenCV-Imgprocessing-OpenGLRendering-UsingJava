@@ -1,0 +1,25 @@
+[
+{
+  "directory": "C:/Users/IM-LP-1457/Downloads/demo-jni-javaopenglintegration-wrkng/android-shader-demo-jni/app/.cxx/cmake/release/arm64-v8a",
+  "command": "C:\\Users\\IM-LP-1457\\AppData\\Local\\Android\\Sdk\\ndk\\21.3.6528147\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=aarch64-none-linux-android21 --gcc-toolchain=C:/Users/IM-LP-1457/AppData/Local/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/IM-LP-1457/AppData/Local/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dgl2jni_EXPORTS -IC:/Users/IM-LP-1457/Downloads/demo-jni-javaopenglintegration-wrkng/android-shader-demo-jni/app/src/main/cpp/.  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -std=c++11 -std=c++11 -Wall -O2 -DNDEBUG  -fPIC   -o CMakeFiles\\gl2jni.dir\\gl_code.cpp.o -c C:\\Users\\IM-LP-1457\\Downloads\\demo-jni-javaopenglintegration-wrkng\\android-shader-demo-jni\\app\\src\\main\\cpp\\gl_code.cpp",
+  "file": "C:\\Users\\IM-LP-1457\\Downloads\\demo-jni-javaopenglintegration-wrkng\\android-shader-demo-jni\\app\\src\\main\\cpp\\gl_code.cpp"
+},
+
+{
+  "directory": "C:/Users/IM-LP-1457/Downloads/demo-jni-javaopenglintegration-wrkng/android-shader-demo-jni/app/.cxx/cmake/release/arm64-v8a",
+  "command": "C:\\Users\\IM-LP-1457\\AppData\\Local\\Android\\Sdk\\ndk\\21.3.6528147\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=aarch64-none-linux-android21 --gcc-toolchain=C:/Users/IM-LP-1457/AppData/Local/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/IM-LP-1457/AppData/Local/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dgl2jni_EXPORTS -IC:/Users/IM-LP-1457/Downloads/demo-jni-javaopenglintegration-wrkng/android-shader-demo-jni/app/src/main/cpp/.  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -std=c++11 -std=c++11 -Wall -O2 -DNDEBUG  -fPIC   -o CMakeFiles\\gl2jni.dir\\cl_wrapper.cpp.o -c C:\\Users\\IM-LP-1457\\Downloads\\demo-jni-javaopenglintegration-wrkng\\android-shader-demo-jni\\app\\src\\main\\cpp\\cl_wrapper.cpp",
+  "file": "C:\\Users\\IM-LP-1457\\Downloads\\demo-jni-javaopenglintegration-wrkng\\android-shader-demo-jni\\app\\src\\main\\cpp\\cl_wrapper.cpp"
+},
+
+{
+  "directory": "C:/Users/IM-LP-1457/Downloads/demo-jni-javaopenglintegration-wrkng/android-shader-demo-jni/app/.cxx/cmake/release/arm64-v8a",
+  "command": "C:\\Users\\IM-LP-1457\\AppData\\Local\\Android\\Sdk\\ndk\\21.3.6528147\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe --target=aarch64-none-linux-android21 --gcc-toolchain=C:/Users/IM-LP-1457/AppData/Local/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/IM-LP-1457/AppData/Local/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dgl2jni_EXPORTS -IC:/Users/IM-LP-1457/Downloads/demo-jni-javaopenglintegration-wrkng/android-shader-demo-jni/app/src/main/cpp/.  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC   -o CMakeFiles\\gl2jni.dir\\libopencl.c.o   -c C:\\Users\\IM-LP-1457\\Downloads\\demo-jni-javaopenglintegration-wrkng\\android-shader-demo-jni\\app\\src\\main\\cpp\\libopencl.c",
+  "file": "C:\\Users\\IM-LP-1457\\Downloads\\demo-jni-javaopenglintegration-wrkng\\android-shader-demo-jni\\app\\src\\main\\cpp\\libopencl.c"
+},
+
+{
+  "directory": "C:/Users/IM-LP-1457/Downloads/demo-jni-javaopenglintegration-wrkng/android-shader-demo-jni/app/.cxx/cmake/release/arm64-v8a",
+  "command": "C:\\Users\\IM-LP-1457\\AppData\\Local\\Android\\Sdk\\ndk\\21.3.6528147\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=aarch64-none-linux-android21 --gcc-toolchain=C:/Users/IM-LP-1457/AppData/Local/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/IM-LP-1457/AppData/Local/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dgl2jni_EXPORTS -IC:/Users/IM-LP-1457/Downloads/demo-jni-javaopenglintegration-wrkng/android-shader-demo-jni/app/src/main/cpp/.  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -std=c++11 -std=c++11 -Wall -O2 -DNDEBUG  -fPIC   -o CMakeFiles\\gl2jni.dir\\util.cpp.o -c C:\\Users\\IM-LP-1457\\Downloads\\demo-jni-javaopenglintegration-wrkng\\android-shader-demo-jni\\app\\src\\main\\cpp\\util.cpp",
+  "file": "C:\\Users\\IM-LP-1457\\Downloads\\demo-jni-javaopenglintegration-wrkng\\android-shader-demo-jni\\app\\src\\main\\cpp\\util.cpp"
+}
+]

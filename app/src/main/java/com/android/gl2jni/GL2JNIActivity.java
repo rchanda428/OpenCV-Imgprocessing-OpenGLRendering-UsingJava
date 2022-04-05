@@ -29,6 +29,8 @@ import android.widget.FrameLayout;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 
+import org.opencv.imgproc.Imgproc;
+
 import java.io.File;
 
 public class GL2JNIActivity extends Activity implements View.OnClickListener {
@@ -81,6 +83,7 @@ public class GL2JNIActivity extends Activity implements View.OnClickListener {
 	    LinearLayout.LayoutParams p = new LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT,
                 LinearLayout.LayoutParams.MATCH_PARENT);
 	    ll.addView(mView, 0, p);
+
     }
 
     @Override protected void onPause() {

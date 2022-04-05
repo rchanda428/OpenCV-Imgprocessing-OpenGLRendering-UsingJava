@@ -1,0 +1,45 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\IM-LP-1457\\Downloads\\demo-jni-javaopenglintegration-wrkng\\android-shader-demo-jni\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\IM-LP-1457\\Downloads\\demo-jni-javaopenglintegration-wrkng\\android-shader-demo-jni\\openCVLibrary454\\build\\intermediates\\packaged_res\\debug\\values\\values.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "9",
+                        "endColumns": "24",
+                        "endOffsets": "361"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "106",
+                        "endLines": "10",
+                        "endColumns": "24",
+                        "endOffsets": "412"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\IM-LP-1457\\Downloads\\demo-jni-javaopenglintegration-wrkng\\android-shader-demo-jni\\app\\src\\main\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "25",
+                        "startColumns": "4",
+                        "startOffsets": "884",
+                        "endColumns": "50",
+                        "endOffsets": "930"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "50",
+                        "endOffsets": "101"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,2 @@
+ninja: Entering directory `D:\StudioProjects\PFU-IDScanner\openCVLibrary454\.cxx\RelWithDebInfo\6y2g374q\x86_64'
+ninja: no work to do.

@@ -1,0 +1,7 @@
+Executable : D:\SDK\cmake\3.10.2.4988404\bin\ninja.exe
+arguments : 
+-C
+D:\StudioProjects\PFU-IDScanner\openCVLibrary454\.cxx\RelWithDebInfo\6y2g374q\x86
+opencv_jni_shared
+jvmArgs : 
+

@@ -1,0 +1,3 @@
+D:/StudioProjects/PFU-IDScanner/openCVLibrary454/.cxx/Debug/3iof5110/x86/CMakeFiles/opencv_jni_shared.dir
+D:/StudioProjects/PFU-IDScanner/openCVLibrary454/.cxx/Debug/3iof5110/x86/CMakeFiles/edit_cache.dir
+D:/StudioProjects/PFU-IDScanner/openCVLibrary454/.cxx/Debug/3iof5110/x86/CMakeFiles/rebuild_cache.dir

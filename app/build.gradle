@@ -1,10 +1,11 @@
 apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android'
 
 android {
     compileSdkVersion 29
     defaultConfig {
         applicationId 'com.android.gl2jni'
-        minSdkVersion 14
+        minSdkVersion 24
         targetSdkVersion 29
         externalNativeBuild {
             cmake {
@@ -30,8 +31,8 @@ android {
         }
     }
     compileOptions {
-        sourceCompatibility JavaVersion.VERSION_1_6
-        targetCompatibility JavaVersion.VERSION_1_6
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
     }
     //buildToolsVersion '28.0.3'
     //ndkVersion '22.1.7171670'
@@ -39,4 +40,9 @@ android {
         pickFirst 'lib/arm64-v8a/libopencv_java4.so'
     }
 }
+
+dependencies {
+    implementation project(path: ':openCVLibrary454')
+}
+
 

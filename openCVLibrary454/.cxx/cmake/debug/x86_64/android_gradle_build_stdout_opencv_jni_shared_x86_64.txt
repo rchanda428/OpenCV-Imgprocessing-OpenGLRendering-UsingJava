@@ -1,0 +1,2 @@
+ninja: Entering directory `C:\Users\IM-LP-1457\Downloads\demo-jni-javaopenglintegration-wrkng\android-shader-demo-jni\openCVLibrary454\.cxx\cmake\debug\x86_64'
+ninja: no work to do.

@@ -1,0 +1,39 @@
+{
+  "stringTable": {},
+  "buildFiles": [
+    "D:\\StudioProjects\\PFU-IDScanner\\openCVLibrary454\\libcxx_helper\\CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "D:\\SDK\\cmake\\3.10.2.4988404\\bin\\ninja.exe",
+      "-C",
+      "D:\\StudioProjects\\PFU-IDScanner\\openCVLibrary454\\.cxx\\RelWithDebInfo\\6y2g374q\\arm64-v8a",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "D:\\SDK\\cmake\\3.10.2.4988404\\bin\\ninja.exe",
+    "-C",
+    "D:\\StudioProjects\\PFU-IDScanner\\openCVLibrary454\\.cxx\\RelWithDebInfo\\6y2g374q\\arm64-v8a",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "opencv_jni_shared-RelWithDebInfo-arm64-v8a": {
+      "buildCommandComponents": [
+        "D:\\SDK\\cmake\\3.10.2.4988404\\bin\\ninja.exe",
+        "-C",
+        "D:\\StudioProjects\\PFU-IDScanner\\openCVLibrary454\\.cxx\\RelWithDebInfo\\6y2g374q\\arm64-v8a",
+        "opencv_jni_shared"
+      ],
+      "buildType": "release",
+      "abi": "arm64-v8a",
+      "artifactName": "opencv_jni_shared",
+      "output": "D:\\StudioProjects\\PFU-IDScanner\\openCVLibrary454\\.cxx\\RelWithDebInfo\\6y2g374q\\arm64-v8a\\libopencv_jni_shared.a"
+    }
+  },
+  "toolchains": {},
+  "cFileExtensions": [],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}

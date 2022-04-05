@@ -1,0 +1,12 @@
+com.android.gl2jni:styleable/CameraBridgeViewBase = 0x7f060000
+com.android.gl2jni:id/root = 0x7f020005
+com.android.gl2jni:mipmap/ic_launcher = 0x7f040000
+com.android.gl2jni:layout/main = 0x7f030000
+com.android.gl2jni:attr/camera_id = 0x7f010000
+com.android.gl2jni:id/front = 0x7f020003
+com.android.gl2jni:string/gl2jni_activity = 0x7f050000
+com.android.gl2jni:id/btn = 0x7f020002
+com.android.gl2jni:attr/show_fps = 0x7f010001
+com.android.gl2jni:id/back = 0x7f020001
+com.android.gl2jni:id/any = 0x7f020000
+com.android.gl2jni:id/img = 0x7f020004

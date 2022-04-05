@@ -1,0 +1,7 @@
+Executable : C:\Users\IM-LP-1457\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\ninja.exe
+arguments : 
+-C
+C:\Users\IM-LP-1457\Downloads\demo-jni-javaopenglintegration-wrkng\android-shader-demo-jni\openCVLibrary454\.cxx\cmake\debug\x86
+opencv_jni_shared
+jvmArgs : 
+

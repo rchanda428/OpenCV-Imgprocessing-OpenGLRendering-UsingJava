@@ -1,0 +1,3 @@
+C:/Users/IM-LP-1457/Downloads/demo-jni-javaopenglintegration-wrkng/android-shader-demo-jni/app/.cxx/cmake/release/arm64-v8a/CMakeFiles/gl2jni.dir
+C:/Users/IM-LP-1457/Downloads/demo-jni-javaopenglintegration-wrkng/android-shader-demo-jni/app/.cxx/cmake/release/arm64-v8a/CMakeFiles/edit_cache.dir
+C:/Users/IM-LP-1457/Downloads/demo-jni-javaopenglintegration-wrkng/android-shader-demo-jni/app/.cxx/cmake/release/arm64-v8a/CMakeFiles/rebuild_cache.dir

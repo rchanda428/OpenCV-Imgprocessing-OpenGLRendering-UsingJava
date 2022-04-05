@@ -1,0 +1,7 @@
+# ninja log v5
+1	91	0	clean	83ca46858bb2970a
+1	11320	670249667	CMakeFiles/gl2jni.dir/cl_wrapper.cpp.o	a3cbca2e2e6901b6
+25	18477	670249674	CMakeFiles/gl2jni.dir/gl_code.cpp.o	8bdee18fc139efb3
+3333	20067	670249676	CMakeFiles/gl2jni.dir/util.cpp.o	947ebc72415899bf
+5855	20849	670249677	CMakeFiles/gl2jni.dir/libopencl.c.o	e0b91d1252ab2baa
+20849	23967	670249680	C:/Users/IM-LP-1457/Downloads/demo-jni-javaopenglintegration-wrkng/android-shader-demo-jni/app/build/intermediates/cmake/debug/obj/arm64-v8a/libgl2jni.so	21596b11b728474b

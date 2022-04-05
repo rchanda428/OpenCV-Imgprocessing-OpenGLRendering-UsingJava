@@ -1,0 +1,13 @@
+com.android.gl2jni
+attr camera_id
+attr show_fps
+id any
+id back
+id btn
+id front
+id img
+id root
+layout main
+mipmap ic_launcher
+string gl2jni_activity
+styleable CameraBridgeViewBase camera_id show_fps
